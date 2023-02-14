@@ -13,7 +13,8 @@
     
     foreach($usuarios_app as $user){
         if($user['email'] == $email && $user['senha'] == $senha){
-            $usuario_autenticado =  true;
+            $usuario_autenticado =  true;        
+            header('Location: home.php');
         }
     } 
     if($usuario_autenticado){
