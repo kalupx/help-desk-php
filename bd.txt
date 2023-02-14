@@ -1,4 +1,0 @@
-4#chamado_1#Impressora#teste_1
-4#chamado_2#Impressora#teste_2
-4#chamado_3#Impressora#teste_3
-4#chamado_4#Impressora#teste_4

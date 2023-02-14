@@ -9,7 +9,7 @@
     
 
     //abre um arquivo txt, o parametro 'a' define como escrita
-    $arquivo = fopen('bd.txt','a');
+    $arquivo = fopen('../../app_help_desk/bd.txt','a');
 
     //escreve no artigo
     fwrite($arquivo, $texto);

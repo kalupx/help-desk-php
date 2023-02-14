@@ -5,7 +5,7 @@
   $chamados = array();
 
   //abrindo o arquivo do bd
-  $arquivo = fopen('bd.txt', 'r');
+  $arquivo = fopen('../../app_help_desk/bd.txt', 'r');
         //verifica o end of file
   while(!feof($arquivo)){
     $regitro = fgets($arquivo);
